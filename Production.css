@@ -1,0 +1,455 @@
+.production_Tetris-img
+{
+    background-image:url('Image/production/TetrisHigh/TetrisHigh_Title.png');
+    width: 360px;
+    height: 200px;
+    position: relative;
+    top : 60px;
+    left : 3%; 
+}
+
+.production_BattleRun-img
+{
+    background-image:url('Image/production/BattleRun/BattleRun_Title.png');
+    width: 360px;
+    height: 200px;
+    position: relative;
+    top : -140px;
+    left : 28%; 
+}
+
+.production_Ninja-img
+{
+    background-image:url('Image/production/NinjaResidence/NinjaResidence_Title.png');
+    width: 360px;
+    height: 200px;
+    position: relative;
+    top : -340px;
+    left : 53%; 
+}
+
+.production_DeepSee-img
+{
+    background-image:url('Image/production/DeepSeeStars/DeepSeeStars_Title.png');
+    width: 360px;
+    height: 200px;
+    position: relative;
+    top : -540px;
+    left : 78%; 
+}
+
+.production_Tetris_Presen-font
+{
+    font-size: 25px;
+    width: 280;
+    height: -0px;
+    position: relative;
+    top : -530px;
+    left : 6%; 
+}
+
+.production_BattleRun_Presen-font
+{
+    font-size: 25px;
+    width: 250;
+    height: 0px;
+    position: relative;
+    top : -520px;
+    left : 31%; 
+}
+
+.production_Ninja_Presen-font
+{
+    font-size: 25px;
+    width: 280;
+    height: 0px;
+    position: relative;
+    top : -520px;
+    left : 55%; 
+}
+
+.production_DeepSee_Presen-font
+{
+    font-size: 25px;
+    width: 300;
+    height: 0px;
+    position: relative;
+    top : -520px;
+    left : 80%; 
+}
+
+.production_Tetris_etc-font
+{
+    text-decoration: underline;
+    font-size: 25px;
+    width: 230;
+    height: -0px;
+    position: relative;
+    top : -492px;
+    left : 16.7%; 
+}
+
+.production_BattleRun_etc-font
+{
+    text-decoration: underline;
+    font-size: 25px;
+    width: 250;
+    height: 0px;
+    position: relative;
+    top : -520px;
+    left : 43.3%; 
+}
+
+.production_Ninja_etc-font
+{
+    text-decoration: underline;
+    font-size: 25px;
+    width: 280;
+    height: 0px;
+    position: relative;
+    top : -520px;
+    left : 69.7%; 
+}
+
+.production_DeepSee_etc-font
+{
+    text-decoration: underline;
+    font-size: 25px;
+    width: 300;
+    height: 0px;
+    position: relative;
+    top : -520px;
+    left : 96%; 
+}
+
+.production_NextOpen-img
+{
+    background-image:url('Image/production/Production_NextOpen.png');
+    width: 0px;
+    height: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.nextopenactive
+{
+transition: all 60ms 0s ease;
+animation-name : nextopenactive;
+animation-duration : 0.5s;
+animation-fill-mode : forwards;
+}
+
+@keyframes nextopenactive
+{
+    0% {width : 0px ;}
+    0% {height : 0px ;}
+    100% {width: 850px;}
+    100% {height: 650px;}
+}
+
+.nextcloseactive
+{
+transition: all 5ms 0s ease;
+animation-name : nextcloseactive;
+animation-duration : 0.4s;
+animation-fill-mode : forwards;
+}
+
+@keyframes nextcloseactive
+{
+    0% {width : 850px ;}
+    0% {height : 650px ;}
+    100% {width: 0px;}
+    100% {height: 0px;}
+}
+
+.page_Close_Buttom-img
+{
+    background-image:url('Image/Page_Close_Buttom.png');
+    width: 0px;
+    height: 0px;
+    position: fixed;
+    top: 0;
+    left: 800px;
+    right: 0;
+    bottom: 700px;
+    margin: auto;
+}
+
+.openclosebuttom
+{
+transition: all 60ms 0s ease;
+animation-name : openclosebuttom;
+animation-duration : 0.5s;
+animation-fill-mode : forwards;
+}
+
+@keyframes openclosebuttom
+{
+    0% {width : 0px ;}
+    0% {height : 0px ;}
+    100% {width: 50px;}
+    100% {height: 50px;}
+}
+
+
+.closeclosebuttom
+{
+transition: all 5ms 0s ease;
+animation-name : closeclosebuttom;
+animation-duration : 0.3s;
+animation-fill-mode : forwards;
+}
+
+@keyframes closeclosebuttom
+{
+    0% {width : 50px ;}
+    0% {height : 50px ;}
+    100% {width: 0px;}
+    100% {height: 0px;}
+}
+
+.production_Tetris_etcContent-font
+{
+    color: white;
+    opacity : 0;
+    line-height: 58px;
+    font-size: 25px;
+    width: 0px;
+    height: 0px;
+    position: fixed;
+    top: 350;
+    left: 10px;
+    right: 0;
+    bottom: 0px;
+    margin: auto;
+}
+
+.production_BattleRun_etcContent-font
+{
+    color: white;
+    opacity : 0;
+    line-height: 68px;
+    font-size: 25px;
+    width: 0px;
+    height: 0px;
+    position: fixed;
+    top: 350;
+    left: 10px;
+    right: 0;
+    bottom: 0px;
+    margin: auto;
+}
+
+.production_Ninja_etcContent-font
+{
+    color: white;
+    opacity : 0;
+    line-height: 68px;
+    font-size: 25px;
+    width: 0px;
+    height: 0px;
+    position: fixed;
+    top: 350;
+    left: 10px;
+    right: 0;
+    bottom: 0px;
+    margin: auto;
+}
+
+.production_DeepSee_etcContent-font
+{
+    color: white;
+    opacity : 0;
+    line-height: 58px;
+    font-size: 25px;
+    width: 0px;
+    height: 0px;
+    position: fixed;
+    top: 350;
+    left: 10px;
+    right: 0;
+    bottom: 0px;
+    margin: auto;
+}
+
+.openetcfont
+{
+transition: all 5ms 0s ease;
+animation-name : openetcfont;
+animation-duration : 1s;
+animation-fill-mode : forwards;
+}
+
+@keyframes openetcfont
+{
+    0% {width: 730;}
+    0% {height: 0;}
+    0% {opacity: 0;}
+    100% {width: 730;}
+    100% {height: 400;}
+    100% {opacity: 1.0;}
+}
+
+.closeetcfont
+{
+transition: all 5ms 0s ease;
+animation-name : closeetcfont;
+animation-duration : 1s;
+animation-fill-mode : forwards;
+}
+
+@keyframes closeetcfont
+{
+    0% {width: 730;}
+    0% {height: 400;}
+    0% {opacity: 1.0;}
+    100% {width: 730;}
+    100% {height: 0;}
+    0% {opacity: 0;}
+}
+
+.openetcContent
+{
+transition: all 5ms 0s ease;
+animation-name : openetcContent;
+animation-duration : 1s;
+animation-fill-mode : forwards;
+}
+
+@keyframes openetcContent
+{
+    0% {opacity: 0;}
+    100% {opacity: 1.0;}
+}
+
+.closeetcContent
+{
+transition: all 5ms 0s ease;
+animation-name : closeetcContent;
+animation-duration : 0.2s;
+animation-fill-mode : forwards;
+}
+
+@keyframes closeetcContent
+{
+    0% {opacity: 1.0;}
+    100% {opacity: 0;}
+}
+
+.production_Tetris_Openetc1-img
+{
+    background-image:url('Image/production/TetrisHigh/TetrisHigh_etc1.png');
+    opacity : 0;
+    width: 360px;
+    height: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 400;
+    bottom: 330px;
+    margin: auto;
+}
+
+.production_Tetris_Openetc2-img
+{
+    background-image:url('Image/production/TetrisHigh/TetrisHigh_etc2.png');
+    opacity : 0;
+    width: 360px;
+    height: 200px;
+    position: fixed;
+    top: 0;
+    left: 400;
+    right: 0;
+    bottom: 330px;
+    margin: auto;
+}
+
+.production_BattleRun_Openetc1-img
+{
+    background-image:url('Image/production/BattleRun/BattleRun_etc1.png');
+    opacity : 0;
+    width: 360px;
+    height: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 400;
+    bottom: 330px;
+    margin: auto;
+}
+
+.production_BattleRun_Openetc2-img
+{
+    background-image:url('Image/production/BattleRun/BattleRun_etc2.png');
+    opacity : 0;
+    width: 360px;
+    height: 200px;
+    position: fixed;
+    top: 0;
+    left: 400;
+    right: 0;
+    bottom: 330px;
+    margin: auto;
+}
+
+.production_Ninja_Openetc1-img
+{
+    background-image:url('Image/production/NinjaResidence/NinjaResidence_etc1.png');
+    opacity : 0;
+    width: 360px;
+    height: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 400;
+    bottom: 330px;
+    margin: auto;
+}
+
+.production_Ninja_Openetc2-img
+{
+    background-image:url('Image/production/NinjaResidence/NinjaResidence_etc2.png');
+    opacity : 0;
+    width: 360px;
+    height: 200px;
+    position: fixed;
+    top: 0;
+    left: 400;
+    right: 0;
+    bottom: 330px;
+    margin: auto;
+}
+
+.production_DeepSee_Openetc1-img
+{
+    background-image:url('Image/production/DeepSeeStars/DeepSeeStars_etc1.png');
+    opacity : 0;
+    width: 360px;
+    height: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 400;
+    bottom: 330px;
+    margin: auto;
+}
+
+.production_DeepSee_Openetc2-img
+{
+    background-image:url('Image/production/DeepSeeStars/DeepSeeStars_etc2.png');
+    opacity : 0;
+    width: 360px;
+    height: 200px;
+    position: fixed;
+    top: 0;
+    left: 400;
+    right: 0;
+    bottom: 330px;
+    margin: auto;
+}
+

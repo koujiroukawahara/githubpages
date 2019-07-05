@@ -1,0 +1,29 @@
+.taskbar_profile-img
+{
+    background-image:url('Image/Taskbar_Profile.png'); 
+    background-repeat: no-repeat;
+    height: 30px;
+    position: fixed;
+    top : 10px;
+    right : -45px;
+}
+
+.taskbar_production-img
+{
+    background-image:url('Image/Taskbar_Production.png'); 
+    background-repeat: no-repeat;
+    height: 30px;
+    position: fixed;
+    top : 65px;
+    right : -45px;
+}
+
+.taskbar_highlight-img
+{
+    background-image:url('Image/Taskbar_HighLight.png'); 
+    background-repeat: no-repeat;
+    height: 30px;
+    position: fixed;
+    top : 115px;
+    right : -45px;
+}
