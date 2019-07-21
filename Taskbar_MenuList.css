@@ -1,6 +1,6 @@
-.taskbar_profile-img
+.taskbar_production-img
 {
-    background-image:url('Image/Taskbar_Profile.png'); 
+    background-image:url('Image/Taskbar_Production.png'); 
     background-repeat: no-repeat;
     height: 30px;
     position: fixed;
@@ -8,9 +8,9 @@
     right : -45px;
 }
 
-.taskbar_production-img
+.taskbar_profile-img
 {
-    background-image:url('Image/Taskbar_Production.png'); 
+    background-image:url('Image/Taskbar_Profile.png'); 
     background-repeat: no-repeat;
     height: 30px;
     position: fixed;

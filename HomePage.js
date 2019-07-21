@@ -1,12 +1,14 @@
 window.onload = ()=>
 {
 let homebuttom = document.querySelector( ".homebuttom-img" )
+let pagetop = document.querySelector( ".pagetop" )
+
 let taskbarmenubuttom = document.querySelector(".taskbar_menubuttom-img")
 let taskbarmenubar = document.querySelector(".taskbar_menubar")
 let movement = document.querySelector(".move")
 
-let taskbarprofilelist = document.querySelector(".taskbar_profile-img")
 let taskbarproductionlist = document.querySelector(".taskbar_production-img")
+let taskbarprofilelist = document.querySelector(".taskbar_profile-img")
 let taskbarhighlight = document.querySelector(".taskbar_highlight-img")
 
 let production_tetris_next = document.querySelector(".production_Tetris_etc-font")
@@ -74,13 +76,24 @@ homebuttom.addEventListener("click",()=>
     window.scroll({	top: 0, behavior: "smooth" })
 });
 
+pagetop.addEventListener("click",()=> 
+{    
+    window.scroll({	top: 0, behavior: "smooth" })
+});
+
 taskbarproductionlist.addEventListener("click",()=> 
 {    
-    window.scroll({	top: 1078})
+    window.scroll({	top: 1015})
 });
+
+taskbarprofilelist.addEventListener("click",()=> 
+{    
+    window.scroll({	top: 1545})
+});
+
 taskbarhighlight.addEventListener("click",()=> 
 {    
-    window.scroll({	top: 1300})
+    window.scroll({	top: 2298})
 });
 
 var productiontype = {

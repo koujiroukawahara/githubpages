@@ -313,6 +313,8 @@ animation-fill-mode : forwards;
     0% {opacity: 0;}
 }
 
+
+
 .openetcContent
 {
 transition: all 5ms 0s ease;
@@ -453,3 +455,26 @@ animation-fill-mode : forwards;
     margin: auto;
 }
 
+.production_BattleRun_GitHub
+{
+    position: relative;
+    bottom : 480px;
+    left: 585px;
+    font-size : 25px;
+}
+
+.production_Ninja_GitHub
+{
+    position: relative;
+    bottom : 480px;
+    left: 845px;
+    font-size : 25px;
+}
+
+.production_DeepSee_GitHub
+{
+    position: relative;
+    bottom : 480px;
+    left: 1100;
+    font-size : 25px;
+}

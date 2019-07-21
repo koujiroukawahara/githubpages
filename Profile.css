@@ -1,0 +1,88 @@
+.profile_background-img
+{ 
+    background-image:url('Image/Profile_BackGround.png'); 
+    width: 100%;
+    height: 70%;
+    position: relative;
+    top: -37%;
+    left: 0%;
+}
+
+.profile_name-font
+{
+    font-size: 40px;
+    color: white;
+    position: relative;
+    top: -94%;
+    left: 9%;
+}
+
+.profile_birthday-font
+{
+    font-size: 40px;
+    color: white;
+    position: relative;
+    top: -87%;
+    left: 9%;
+}
+
+.profile_from-font
+{
+    font-size: 40px;
+    color:white;
+ 
+    position: relative;
+    top: -79%;
+    left: 9%;
+}
+
+.profile_bloodtype-font
+{
+    font-size: 40px;
+    color:white;
+ 
+    position: relative;
+     top: -72%;
+     left: 9%;
+}
+
+.profile_hobby-font
+{
+    font-size: 40px;
+    color:white;
+ 
+    position: relative;
+    top: -118.5%;
+    left: 62%;
+}
+
+.profile_likefood-font
+{
+    font-size: 40px;
+    color:white;
+ 
+    position: relative;
+    top: -112%;
+    left: 62%;
+}
+
+.profile_dislikefood-font
+{
+    font-size: 40px;
+    color:white;
+ 
+    position: relative;
+    top: -103.5%;
+    left: 62%;
+}
+
+.profile_likesports-font
+{
+    font-size: 40px;
+    color:white;
+ 
+    position: relative;
+    top: -97%;
+    left: 62%;
+}
+
